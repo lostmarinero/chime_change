@@ -1925,3 +1925,1934 @@ Served asset /application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-07 08:39:00 -0800
 Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-07 10:13:11 -0800
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Compiled framework_and_overrides.css  (2409ms)  (pid 8481)
+Compiled application.css  (2467ms)  (pid 8481)
+Compiled bootstrap/affix.js  (0ms)  (pid 8481)
+Compiled bootstrap/alert.js  (0ms)  (pid 8481)
+Compiled bootstrap/button.js  (0ms)  (pid 8481)
+Compiled bootstrap/carousel.js  (0ms)  (pid 8481)
+Compiled bootstrap/collapse.js  (0ms)  (pid 8481)
+Compiled bootstrap/dropdown.js  (0ms)  (pid 8481)
+Compiled bootstrap/tab.js  (0ms)  (pid 8481)
+Compiled bootstrap/transition.js  (0ms)  (pid 8481)
+Compiled bootstrap/scrollspy.js  (0ms)  (pid 8481)
+Compiled bootstrap/modal.js  (0ms)  (pid 8481)
+Compiled bootstrap/tooltip.js  (0ms)  (pid 8481)
+Compiled bootstrap/popover.js  (0ms)  (pid 8481)
+Compiled bootstrap.js  (66ms)  (pid 8481)
+Compiled map.js  (0ms)  (pid 8481)
+Compiled application.js  (77ms)  (pid 8481)
+  Rendered layouts/_navigation_links.html.erb (0.3ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.8ms)
+Completed 200 OK in 2636ms (Views: 2636.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-07 10:13:14 -0800
+Served asset /framework_and_overrides.css - 200 OK (8ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-07 10:13:14 -0800
+Served asset /bootstrap/button.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-07 10:13:14 -0800
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-07 10:13:14 -0800
+Served asset /bootstrap/alert.js - 200 OK (8ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-07 10:13:14 -0800
+Served asset /bootstrap/carousel.js - 200 OK (7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-07 10:13:14 -0800
+Served asset /application.css - 200 OK (12ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-07 10:13:14 -0800
+Served asset /bootstrap/affix.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-07 10:13:14 -0800
+Served asset /bootstrap/collapse.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-07 10:13:14 -0800
+Served asset /bootstrap/dropdown.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-07 10:13:15 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-07 10:13:15 -0800
+Served asset /bootstrap/tab.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-07 10:13:15 -0800
+Served asset /bootstrap/transition.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-07 10:13:15 -0800
+Served asset /bootstrap/scrollspy.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-07 10:13:15 -0800
+Served asset /bootstrap/modal.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-07 10:13:15 -0800
+Served asset /bootstrap/tooltip.js - 200 OK (5ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-07 10:13:15 -0800
+Served asset /bootstrap.js - 200 OK (41ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-07 10:13:15 -0800
+Served asset /application.js - 200 OK (12ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-07 10:13:15 -0800
+Served asset /bootstrap/popover.js - 200 OK (1ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2013-12-07 10:13:15 -0800
+Served asset /map.js - 200 OK (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-07 10:14:05 -0800
+Processing by HomeController#index as HTML
+  Rendered home/_map.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-07 10:14:05 -0800
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-07 10:14:05 -0800
+Served asset /framework_and_overrides.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:05 -0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:05 -0800
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:05 -0800
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:05 -0800
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:05 -0800
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:05 -0800
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:05 -0800
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:05 -0800
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:05 -0800
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:05 -0800
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:05 -0800
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:05 -0800
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:05 -0800
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:05 -0800
+Served asset /map.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:05 -0800
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:05 -0800
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:05 -0800
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-07 10:14:07 -0800
+Processing by HomeController#index as HTML
+  Rendered home/_map.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-07 10:14:07 -0800
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:07 -0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:07 -0800
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-07 10:14:07 -0800
+Served asset /framework_and_overrides.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:07 -0800
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:07 -0800
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:07 -0800
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:07 -0800
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:07 -0800
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:07 -0800
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:07 -0800
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:07 -0800
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:07 -0800
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:07 -0800
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:07 -0800
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:07 -0800
+Served asset /map.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:07 -0800
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:07 -0800
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:07 -0800
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Processing by HomeController#index as HTML
+  Rendered home/_map.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /framework_and_overrides.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /map.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Processing by HomeController#index as HTML
+  Rendered home/_map.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.7ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /framework_and_overrides.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /map.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Processing by HomeController#index as HTML
+  Rendered home/_map.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /framework_and_overrides.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:08 -0800
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /map.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /map.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Processing by HomeController#index as HTML
+  Rendered home/_map.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (2.4ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /framework_and_overrides.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /map.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Processing by HomeController#index as HTML
+  Rendered home/_map.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /framework_and_overrides.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /map.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:09 -0800
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Processing by HomeController#index as HTML
+  Rendered home/_map.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /framework_and_overrides.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /map.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Processing by HomeController#index as HTML
+  Rendered home/_map.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /framework_and_overrides.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /map.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:10 -0800
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-07 10:14:11 -0800
+Processing by HomeController#index as HTML
+  Rendered home/_map.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-07 10:14:11 -0800
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-07 10:14:11 -0800
+Served asset /framework_and_overrides.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:11 -0800
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:11 -0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:11 -0800
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:11 -0800
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:11 -0800
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:11 -0800
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:11 -0800
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:11 -0800
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:11 -0800
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:11 -0800
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:11 -0800
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:11 -0800
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:11 -0800
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:11 -0800
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:11 -0800
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:11 -0800
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:11 -0800
+Served asset /map.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Processing by HomeController#index as HTML
+  Rendered home/_map.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /framework_and_overrides.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /map.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Processing by HomeController#index as HTML
+  Rendered home/_map.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /framework_and_overrides.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2013-12-07 10:14:12 -0800
+Served asset /map.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-07 10:15:23 -0800
+Processing by HomeController#index as HTML
+  Rendered home/_map.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-07 10:15:23 -0800
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-07 10:15:23 -0800
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-07 10:15:23 -0800
+Served asset /framework_and_overrides.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-07 10:15:23 -0800
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-07 10:15:23 -0800
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-07 10:15:23 -0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-07 10:15:23 -0800
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-07 10:15:23 -0800
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-07 10:15:23 -0800
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-07 10:15:23 -0800
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-07 10:15:23 -0800
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-07 10:15:23 -0800
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-07 10:15:23 -0800
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-07 10:15:23 -0800
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-07 10:15:23 -0800
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-07 10:15:23 -0800
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-07 10:15:23 -0800
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-07 10:15:23 -0800
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2013-12-07 10:15:23 -0800
+Served asset /map.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-07 10:18:59 -0800
+Processing by HomeController#index as HTML
+  Rendered home/_map.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-07 10:18:59 -0800
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-07 10:18:59 -0800
+Served asset /framework_and_overrides.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-07 10:18:59 -0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-07 10:18:59 -0800
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-07 10:18:59 -0800
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-07 10:18:59 -0800
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-07 10:18:59 -0800
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-07 10:18:59 -0800
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-07 10:18:59 -0800
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-07 10:18:59 -0800
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-07 10:18:59 -0800
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-07 10:18:59 -0800
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-07 10:18:59 -0800
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-07 10:18:59 -0800
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-07 10:18:59 -0800
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-07 10:18:59 -0800
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-07 10:18:59 -0800
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2013-12-07 10:18:59 -0800
+Served asset /map.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-07 10:18:59 -0800
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-07 10:19:01 -0800
+Processing by HomeController#index as HTML
+  Rendered home/_map.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:01 -0800
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-07 10:19:01 -0800
+Served asset /framework_and_overrides.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:01 -0800
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-07 10:19:01 -0800
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:01 -0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:01 -0800
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:01 -0800
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:01 -0800
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:01 -0800
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:01 -0800
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:01 -0800
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:01 -0800
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:01 -0800
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:01 -0800
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:01 -0800
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:01 -0800
+Served asset /map.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:01 -0800
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:01 -0800
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:01 -0800
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-07 10:19:03 -0800
+Processing by HomeController#index as HTML
+  Rendered home/_map.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation_links.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-07 10:19:03 -0800
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-07 10:19:03 -0800
+Served asset /framework_and_overrides.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:03 -0800
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:03 -0800
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:03 -0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:03 -0800
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:03 -0800
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:03 -0800
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:03 -0800
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:03 -0800
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:03 -0800
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:03 -0800
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:04 -0800
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:04 -0800
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:04 -0800
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:04 -0800
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:04 -0800
+Served asset /map.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:04 -0800
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-07 10:19:04 -0800
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-07 10:21:31 -0800
+Processing by HomeController#index as HTML
+  Rendered home/_map.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 11ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-07 10:21:31 -0800
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:31 -0800
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-07 10:21:31 -0800
+Served asset /framework_and_overrides.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:31 -0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:31 -0800
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:31 -0800
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:31 -0800
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:31 -0800
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:31 -0800
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:31 -0800
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:31 -0800
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:31 -0800
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:31 -0800
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:31 -0800
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:31 -0800
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:31 -0800
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:31 -0800
+Served asset /map.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:31 -0800
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:31 -0800
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-07 10:21:33 -0800
+Processing by HomeController#index as HTML
+  Rendered home/_map.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (1.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-07 10:21:33 -0800
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-07 10:21:33 -0800
+Served asset /framework_and_overrides.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:33 -0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:33 -0800
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:33 -0800
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:33 -0800
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:33 -0800
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:33 -0800
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:33 -0800
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:33 -0800
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:33 -0800
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:33 -0800
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:33 -0800
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:33 -0800
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:33 -0800
+Served asset /map.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:33 -0800
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:33 -0800
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:33 -0800
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-07 10:21:33 -0800
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-07 10:24:20 -0800
+Processing by HomeController#index as HTML
+  Rendered home/_map.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Compiled map.css  (0ms)  (pid 8481)
+Compiled application.css  (6ms)  (pid 8481)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 60ms (Views: 59.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-07 10:24:20 -0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-07 10:24:20 -0800
+Served asset /framework_and_overrides.css - 200 OK (1ms)
+
+
+Started GET "/assets/map.css?body=1" for 127.0.0.1 at 2013-12-07 10:24:20 -0800
+Served asset /map.css - 200 OK (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-07 10:24:20 -0800
+Served asset /application.css - 200 OK (17ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-07 10:24:20 -0800
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-07 10:24:20 -0800
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-07 10:24:20 -0800
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-07 10:24:20 -0800
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-07 10:24:20 -0800
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-07 10:24:20 -0800
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-07 10:24:20 -0800
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-07 10:24:20 -0800
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-07 10:24:20 -0800
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-07 10:24:20 -0800
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-07 10:24:20 -0800
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-07 10:24:20 -0800
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-07 10:24:20 -0800
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-07 10:24:20 -0800
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2013-12-07 10:24:20 -0800
+Served asset /map.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-07 10:24:20 -0800
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-07 10:36:39 -0800
+Processing by HomeController#index as HTML
+  Rendered home/_map.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled map.js  (0ms)  (pid 8481)
+Compiled application.js  (3ms)  (pid 8481)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 73ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-07 10:36:39 -0800
+Served asset /framework_and_overrides.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-07 10:36:39 -0800
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/map.css?body=1" for 127.0.0.1 at 2013-12-07 10:36:39 -0800
+Served asset /map.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-07 10:36:39 -0800
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-07 10:36:39 -0800
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-07 10:36:39 -0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-07 10:36:39 -0800
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-07 10:36:39 -0800
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-07 10:36:39 -0800
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-07 10:36:39 -0800
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-07 10:36:39 -0800
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-07 10:36:39 -0800
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-07 10:36:39 -0800
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-07 10:36:39 -0800
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-07 10:36:39 -0800
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-07 10:36:39 -0800
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-07 10:36:39 -0800
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2013-12-07 10:36:39 -0800
+Served asset /map.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-07 10:36:39 -0800
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-07 10:36:39 -0800
+Served asset /application.js - 200 OK (42ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-07 10:37:34 -0800
+Processing by HomeController#index as HTML
+  Rendered home/_map.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Compiled map.js  (0ms)  (pid 8481)
+Compiled application.js  (5ms)  (pid 8481)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 66ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-07 10:37:34 -0800
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-07 10:37:34 -0800
+Served asset /framework_and_overrides.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-07 10:37:35 -0800
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-07 10:37:35 -0800
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/map.css?body=1" for 127.0.0.1 at 2013-12-07 10:37:35 -0800
+Served asset /map.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-07 10:37:35 -0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-07 10:37:35 -0800
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-07 10:37:35 -0800
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-07 10:37:35 -0800
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-07 10:37:35 -0800
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-07 10:37:35 -0800
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-07 10:37:35 -0800
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-07 10:37:35 -0800
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-07 10:37:35 -0800
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-07 10:37:35 -0800
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-07 10:37:35 -0800
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-07 10:37:35 -0800
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-07 10:37:35 -0800
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2013-12-07 10:37:35 -0800
+Served asset /map.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-07 10:37:35 -0800
+Served asset /application.js - 200 OK (14ms)
