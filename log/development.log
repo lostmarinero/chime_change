@@ -1925,3 +1925,547 @@ Served asset /application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-07 08:39:00 -0800
 Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Dec 07 09:17:54 -0800 2013
+Connecting to database specified by database.yml
+
+PG::ConnectionBad (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/pgsql_socket/.s.PGSQL.5432"?
+):
+  activerecord (3.2.12) lib/active_record/connection_adapters/postgresql_adapter.rb:1208:in `initialize'
+  activerecord (3.2.12) lib/active_record/connection_adapters/postgresql_adapter.rb:1208:in `connect'
+  activerecord (3.2.12) lib/active_record/connection_adapters/postgresql_adapter.rb:1208:in `connect'
+  activerecord (3.2.12) lib/active_record/connection_adapters/postgresql_adapter.rb:326:in `initialize'
+  activerecord (3.2.12) lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `new'
+  activerecord (3.2.12) lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `postgresql_connection'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:315:in `send'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:315:in `new_connection'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:325:in `checkout_new_connection'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:247:in `checkout'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `loop'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `checkout'
+  /usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:239:in `checkout'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:102:in `connection'
+  /usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:101:in `connection'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:67:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `_run__397314981__call__4__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.12) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.12) lib/rails/commands.rb:55
+  railties (3.2.12) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.12) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Dec 07 09:34:32 -0800 2013
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+ERROR: compiling _app_views_layouts_application_html_erb___2035008407_2157371740 RAISED compile error
+/Users/sharon/workspace/chime_change/app/views/layouts/application.html.erb:7: syntax error, unexpected ':', expecting ')'
+...link_tag "application", media: "all" );@output_buffer.safe_c...
+                              ^
+Function body:           def _app_views_layouts_application_html_erb___2035008407_2157371740(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "layouts/application";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>');@output_buffer.append= ( content_for?(:title) ? yield(:title) : "Chime App" );@output_buffer.safe_concat('</title>
+    <meta name="description" content="');@output_buffer.append= ( content_for?(:description) ? yield(:description) : "Chime App" );@output_buffer.safe_concat('">
+    ');@output_buffer.append= ( stylesheet_link_tag "application", media: "all" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( javascript_include_tag "application" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( csrf_meta_tags );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  </head>
+  <body>
+    <header>
+      ');@output_buffer.append= ( render 'layouts/navigation' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    </header>
+    <main role="main">
+       ');@output_buffer.append= ( render 'layouts/messages' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('       ');@output_buffer.append= ( yield );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    </main>
+  </body>
+</html>
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/sharon/workspace/chime_change/app/views/layouts/application.html.erb:24:in `compile'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/template.rb:244:in `compile!'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/template.rb:232:in `synchronize'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/template.rb:232:in `compile!'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/template.rb:144:in `render'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/notifications.rb:125:in `instrument'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/template.rb:143:in `render'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:59:in `render_with_layout'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/renderer/renderer.rb:17:in `render'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:88:in `render'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/rendering.rb:16:in `render'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/abstract_controller/base.rb:167:in `process_action'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:414:in `_run__738958071__process_action__199225275__callbacks'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `send'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `send'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/abstract_controller/base.rb:121:in `process'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:45:in `process'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal.rb:203:in `dispatch'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal.rb:246:in `action'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/journey-1.0.4/lib/journey/router.rb:68:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:601:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/head.rb:14:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activerecord-3.2.12/lib/active_record/query_cache.rb:64:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `_run__397314981__call__4__callbacks'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `send'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `send'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/railties-3.2.12/lib/rails/rack/logger.rb:32:in `call_app'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/tagged_logging.rb:22:in `tagged'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/static.rb:62:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/railties-3.2.12/lib/rails/engine.rb:479:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/railties-3.2.12/lib/rails/application.rb:223:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/railties-3.2.12/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/rack-1.4.5/lib/rack/handler/webrick.rb:13:in `run'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/rack-1.4.5/lib/rack/server.rb:268:in `start'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/railties-3.2.12/lib/rails/commands/server.rb:70:in `start'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/railties-3.2.12/lib/rails/commands.rb:55
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/railties-3.2.12/lib/rails/commands.rb:50:in `tap'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/railties-3.2.12/lib/rails/commands.rb:50
+script/rails:6:in `require'
+script/rails:6
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (compile error
+/Users/sharon/workspace/chime_change/app/views/layouts/application.html.erb:7: syntax error, unexpected ':', expecting ')'
+...link_tag "application", media: "all" );@output_buffer.safe_c...
+                              ^):
+    4:     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    5:     <title><%= content_for?(:title) ? yield(:title) : "Chime App" %></title>
+    6:     <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Chime App" %>">
+    7:     <%= stylesheet_link_tag "application", media: "all" %>
+    8:     <%= javascript_include_tag "application" %>
+    9:     <%= csrf_meta_tags %>
+    10:   </head>
+  app/views/layouts/application.html.erb:24:in `compile'
+
+
+  Rendered /usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (61.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Dec 07 09:36:11 -0800 2013
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Compiled framework_and_overrides.css  (6262ms)  (pid 5356)
+Compiled application.css  (6278ms)  (pid 5356)
+Compiled jquery.js  (3ms)  (pid 5356)
+Compiled jquery_ujs.js  (0ms)  (pid 5356)
+Compiled bootstrap/affix.js  (0ms)  (pid 5356)
+Compiled bootstrap/alert.js  (1ms)  (pid 5356)
+Compiled bootstrap/button.js  (0ms)  (pid 5356)
+Compiled bootstrap/carousel.js  (0ms)  (pid 5356)
+Compiled bootstrap/collapse.js  (0ms)  (pid 5356)
+Compiled bootstrap/dropdown.js  (0ms)  (pid 5356)
+Compiled bootstrap/tab.js  (0ms)  (pid 5356)
+Compiled bootstrap/transition.js  (0ms)  (pid 5356)
+Compiled bootstrap/scrollspy.js  (0ms)  (pid 5356)
+Compiled bootstrap/modal.js  (0ms)  (pid 5356)
+Compiled bootstrap/tooltip.js  (0ms)  (pid 5356)
+Compiled bootstrap/popover.js  (0ms)  (pid 5356)
+Compiled bootstrap.js  (271ms)  (pid 5356)
+Compiled application.js  (301ms)  (pid 5356)
+ERROR: compiling _app_views_layouts__navigation_html_erb__1159419541_2221839240 RAISED compile error
+/Users/sharon/workspace/chime_change/app/views/layouts/_navigation.html.erb:11: syntax error, unexpected ':'
+...k_to 'Home', root_path, class: 'navbar-brand' );@output_buff...
+                              ^
+Function body:           def _app_views_layouts__navigation_html_erb__1159419541_2221839240(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "layouts/_navigation";_old_output_buffer = @output_buffer;navigation = local_assigns[:navigation];;@output_buffer = output_buffer || ActionView::OutputBuffer.new;
+@output_buffer.safe_concat('<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      ');@output_buffer.append= ( link_to 'Home', root_path, class: 'navbar-brand' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        ');@output_buffer.append= ( render 'layouts/navigation_links' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('      </ul>
+    </div>
+  </div>
+</nav>
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/sharon/workspace/chime_change/app/views/layouts/_navigation.html.erb:23:in `compile'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/template.rb:244:in `compile!'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/template.rb:232:in `synchronize'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/template.rb:232:in `compile!'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/template.rb:144:in `render'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/notifications.rb:125:in `instrument'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/template.rb:143:in `render'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/renderer/partial_renderer.rb:265:in `render_partial'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/renderer/partial_renderer.rb:238:in `render'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/renderer/partial_renderer.rb:237:in `render'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/renderer/renderer.rb:41:in `render_partial'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+/Users/sharon/workspace/chime_change/app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___2035008407_2172659860'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/template.rb:145:in `send'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/template.rb:145:in `render'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/notifications.rb:125:in `instrument'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/template.rb:143:in `render'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:59:in `render_with_layout'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_view/renderer/renderer.rb:17:in `render'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:88:in `render'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/rendering.rb:16:in `render'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/abstract_controller/base.rb:167:in `process_action'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:414:in `_run__738958071__process_action__199225275__callbacks'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `send'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `send'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/abstract_controller/base.rb:121:in `process'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:45:in `process'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal.rb:203:in `dispatch'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_controller/metal.rb:246:in `action'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/journey-1.0.4/lib/journey/router.rb:68:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:601:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/head.rb:14:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activerecord-3.2.12/lib/active_record/query_cache.rb:64:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `_run__397314981__call__4__callbacks'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `send'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `send'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/railties-3.2.12/lib/rails/rack/logger.rb:32:in `call_app'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/tagged_logging.rb:22:in `tagged'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/activesupport-3.2.12/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/static.rb:62:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/railties-3.2.12/lib/rails/engine.rb:479:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/railties-3.2.12/lib/rails/application.rb:223:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/railties-3.2.12/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/usr/local/rvm/rubies/ree-1.8.7-2009.10/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/rack-1.4.5/lib/rack/handler/webrick.rb:13:in `run'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/rack-1.4.5/lib/rack/server.rb:268:in `start'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/railties-3.2.12/lib/rails/commands/server.rb:70:in `start'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/railties-3.2.12/lib/rails/commands.rb:55
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/railties-3.2.12/lib/rails/commands.rb:50:in `tap'
+/usr/local/rvm/gems/ree-1.8.7-2009.10/gems/railties-3.2.12/lib/rails/commands.rb:50
+script/rails:6:in `require'
+script/rails:6
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 500 Internal Server Error in 6635ms
+
+ActionView::Template::Error (compile error
+/Users/sharon/workspace/chime_change/app/views/layouts/_navigation.html.erb:11: syntax error, unexpected ':'
+...k_to 'Home', root_path, class: 'navbar-brand' );@output_buff...
+                              ^):
+    8:         <span class="icon-bar"></span>
+    9:         <span class="icon-bar"></span>
+    10:       </button>
+    11:       <%= link_to 'Home', root_path, class: 'navbar-brand' %>
+    12:     </div>
+    13:     <div class="collapse navbar-collapse">
+    14:       <ul class="nav navbar-nav">
+  app/views/layouts/_navigation.html.erb:23:in `compile'
+  app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___2035008407_2172659860'
+
+
+  Rendered /usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ree-1.8.7-2009.10/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Dec 07 09:36:30 -0800 2013
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.4ms)
+  Rendered layouts/_navigation.html.erb (1.9ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Dec 07 09:36:30 -0800 2013
+Served asset /application.css - 200 OK (21ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at Sat Dec 07 09:36:30 -0800 2013
+Served asset /framework_and_overrides.css - 200 OK (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Dec 07 09:36:30 -0800 2013
+Served asset /jquery.js - 200 OK (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Dec 07 09:36:30 -0800 2013
+Served asset /jquery_ujs.js - 200 OK (5ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at Sat Dec 07 09:36:30 -0800 2013
+Served asset /bootstrap/affix.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at Sat Dec 07 09:36:30 -0800 2013
+Served asset /bootstrap/alert.js - 200 OK (5ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at Sat Dec 07 09:36:31 -0800 2013
+Served asset /bootstrap/button.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at Sat Dec 07 09:36:31 -0800 2013
+Served asset /bootstrap/carousel.js - 200 OK (4ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at Sat Dec 07 09:36:31 -0800 2013
+Served asset /bootstrap/collapse.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at Sat Dec 07 09:36:31 -0800 2013
+Served asset /bootstrap/dropdown.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at Sat Dec 07 09:36:31 -0800 2013
+Served asset /bootstrap/tab.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at Sat Dec 07 09:36:31 -0800 2013
+Served asset /bootstrap/transition.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at Sat Dec 07 09:36:31 -0800 2013
+Served asset /bootstrap/scrollspy.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at Sat Dec 07 09:36:31 -0800 2013
+Served asset /bootstrap/modal.js - 200 OK (5ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at Sat Dec 07 09:36:31 -0800 2013
+Served asset /bootstrap/tooltip.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at Sat Dec 07 09:36:31 -0800 2013
+Served asset /bootstrap/popover.js - 200 OK (4ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at Sat Dec 07 09:36:31 -0800 2013
+Served asset /bootstrap.js - 200 OK (14ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Dec 07 09:36:31 -0800 2013
+Served asset /application.js - 200 OK (19ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Dec 07 09:36:34 -0800 2013
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.2ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 9.1ms | ActiveRecord: 0.0ms)
