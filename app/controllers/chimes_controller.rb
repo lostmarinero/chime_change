@@ -44,6 +44,9 @@ class ChimesController < ApplicationController
         :latitude => status["geo"] && status["geo"]["coordinates"] ? status["geo"]["coordinates"].first : nil,
         :longitude => status["geo"] && status["geo"]["coordinates"] ? status["geo"]["coordinates"].last : nil,
         :country => status["place"] && status["place"]["place_type"] == "country" ? status["place"]["name"] : nil,
+        :is_share => !(status["text"] =~ /#share/).nil?,
+        :is_give => !(status["text"] =~ /#give/).nil?,
+        :is_kudos => !(status["text"] =~ /#kudos/).nil?,
         :user => {
           :id => status["user"]["id_str"],
           :screen_name => status["user"]["screen_name"],
