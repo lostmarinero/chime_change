@@ -11,10 +11,10 @@ class ChimesController < ApplicationController
       access_token = prepare_access_token(TWITTER_ACCESS_TOKEN, TWITTER_ACCESS_TOKEN_SECRET)
 
       # Use the access token as an agent to get the home timeline
-      url = URI::escape("https://api.twitter.com/1.1/search/tweets.json?q=#ChimeHack")
+      url = URI::escape("https://api.twitter.com/1.1/search/tweets.json?q=#ChimeDemo")
       logger.info "****** URL ******"
       logger.info(url.inspect)
-      # response = access_token.request(:get, url)
+      response = access_token.request(:get, url)
       response.body
     else
       fake_twitter_response
