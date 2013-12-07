@@ -9,7 +9,14 @@ img {
 // override for the 'Home' navigation link
 .navbar-brand {
   font-size: inherit;
+
   }
+.navbar-item {
+  margin-top: 5px;
+  img {
+    margin-left: 10px;
+  }
+}
 
 // THESE ARE EXAMPLES YOU CAN MODIFY
 // create your own classes
