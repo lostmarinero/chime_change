@@ -1,7 +1,7 @@
 ChimeApp::Application.routes.draw do
 
   # root directory in home controller
-  root "home#index"
+  root :to => 'home#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
