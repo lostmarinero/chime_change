@@ -9,7 +9,14 @@ img {
 // override for the 'Home' navigation link
 .navbar-brand {
   font-size: inherit;
+
   }
+.navbar-item {
+  margin-top: 5px;
+  img {
+    margin-left: 10px;
+  }
+}
 
 // THESE ARE EXAMPLES YOU CAN MODIFY
 // create your own classes
@@ -34,7 +41,8 @@ img {
 // to make views framework-neutral
 main {
   @extend .container;
-  background-color: #eee;
+  background: transparent url("shell/bg-tile.png") fixed repeat 0 -45px;
+  background-color: #693b59;
   padding-bottom: 80px;
   width: 100%;
   margin-top: 51px; // accommodate the navbar
