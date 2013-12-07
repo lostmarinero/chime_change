@@ -2,12 +2,11 @@
 var coder, marker, location,
 	ey, my, mouseDown = false;
 	
-	
-
 var o = {
 	init: function(){
 		this.map.init();
-		
+		this.chimes = new Array();
+		this.getChimes();
 	},
 
   map: {
@@ -67,12 +66,13 @@ var o = {
 		}
 	},
   getChimes: function() {
-	  var chimeData = new Array();
 	  $.getJSON('/chimes.json', function(data) {
 	    var info = data['chimes'];
-	    for (i in info){
-	    var chime = {
-	      created_at : info[i]['created_at'],
+	    for (i in info) {
+	    	// console.log(info[i]);
+
+		    var chime = {
+		      created_at : info[i]['created_at'],
 	        tweet_id : info[i]['tweet_id'],
 	        favorite_count : info[i]['favorite_count'],
 	        retweet_count : info[i]['retweet_count'],
@@ -80,25 +80,37 @@ var o = {
 	        screen_name : info[i]['user']['screen_name'],
 	        user_id : info[i]['user']['id'],
 	        name : info[i]['user']['name'],
-	        // tweet : info[i]['tweet'],
-	        lat : info[i]['latitude'],
-	        lon : info[i]['longitude'],
-	        // place : info[i]['place'],
-	        // tweet_url : info['url']
+	        tweet : info[i]['tweet_text'],
+	        latitude : info[i]['latitude'],
+	        longitude : info[i]['longitude']
+	        // country : info[i]['country'],
+	        // tweet_url : info[i]['tweet_url']
 	        // action : info[i]['action']; 
-	      }
-	    chimeData.push(chime);
-	    }
-	  });
-	  return chimeData;
-	},
+		    }
 
-	loadData: function() {
-		var all_chimes = o.getChimes();
-		for (i in all_chimes){
-			o.map.createMarker(all_chimes[i]);
-		}
-	}
+		    var locations = [[34.0500, -118.2500 ], [40.6700, -73.9400], [51.5072, 0.1275], [45.4667,  9.1833]]
+		    var location = locations[Math.floor(Math.random()*locations.length)];
+		    
+	      if (chime.longitude === null) {
+	        chime.latitude = location[1];
+	        chime.longitude = location[0];
+	      }
+
+	      console.log(chime);
+				o.map.createMarker(chime);
+		    o.chimes.push(chime);
+   	  }
+
+	    return true;
+	  });
+	}//,
+
+	// loadData: function() {
+	// 	console.log(o.chimes);
+	// 	for (i in o.chimes){
+	// 		o.map.createMarker(o.chimes[i]);
+	// 	}
+	// }
 }
 
 
@@ -106,7 +118,8 @@ var o = {
 
 $(function(){ 
 o.init(); 
-o.loadData(); //TODO needs to go in timer
+// o.getChimes();
+// o.loadData(); //TODO needs to go in timer
 
 
 });
