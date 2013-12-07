@@ -1,6 +1,6 @@
 ChimeApp::Application.routes.draw do
 
-  match 'chimes.json', :to => 'home#chimes'
+  match 'chimes.json', :to => 'chimes#index'
 
   # root directory in home controller
   root :to => 'home#index'
