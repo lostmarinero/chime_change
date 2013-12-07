@@ -11,7 +11,7 @@ class ChimesController < ApplicationController
       access_token = prepare_access_token(TWITTER_ACCESS_TOKEN, TWITTER_ACCESS_TOKEN_SECRET)
 
       # Use the access token as an agent to get the home timeline
-      url = URI::escape("https://api.twitter.com/1.1/search/tweets.json?q=#ChimeDemo")
+      url = URI::escape("https://api.twitter.com/1.1/search/tweets.json?q=#Chime4EducationDemo")
       logger.info "****** URL ******"
       logger.info(url.inspect)
       response = access_token.request(:get, url)
@@ -37,18 +37,19 @@ class ChimesController < ApplicationController
       {
         :tweet_id => status["id_str"],
         :tweet_text => status["text"],
-        :tweet_url => nil,
+        :tweet_url => "https://twitter.com/#{status['user']['screen_name']}/status/#{status['id_str']}",
         :created_at => status["created_at"],
         :favorite_count => status["favorite_count"],
         :retweet_count => status["retweet_count"],
         :latitude => status["geo"] && status["geo"]["coordinates"] ? status["geo"]["coordinates"].first : nil,
         :longitude => status["geo"] && status["geo"]["coordinates"] ? status["geo"]["coordinates"].last : nil,
+        :country => status["place"] && status["place"]["place_type"] == "country" ? status["place"]["name"] : nil,
         :user => {
-          # :id => status["user"]["id_str"],
-          # :screen_name => status["user"]["screen_name"],
-          # :profile_image_url => status["user"]["profile_image_url"],
-          # :name => status["user"]["name"],
-          # :location => status["user"]["location"]
+          :id => status["user"]["id_str"],
+          :screen_name => status["user"]["screen_name"],
+          :profile_image_url => status["user"]["profile_image_url"],
+          :name => status["user"]["name"],
+          :location => status["user"]["location"]
         }
       }
     end
