@@ -6,7 +6,7 @@ class ChimesController < ApplicationController
   TWITTER_ACCESS_TOKEN_SECRET = "eZBmJsi6dMkTGUzOD1KCCIbvKGdHEPGliaCLEAOgTyOA6".freeze
 
   def index
-    twitter_response = if params[:real]
+    twitter_response = if !params[:fake]
       # Exchange our oauth_token and oauth_token secret for the AccessToken instance.
       access_token = prepare_access_token(TWITTER_ACCESS_TOKEN, TWITTER_ACCESS_TOKEN_SECRET)
 
@@ -20,8 +20,8 @@ class ChimesController < ApplicationController
       fake_twitter_response
     end
 
-    logger.info "****** TWITTER RESPONSE ******"
-    logger.info twitter_response.inspect
+    # logger.info "****** TWITTER RESPONSE ******"
+    # logger.info twitter_response.inspect
     statuses = JSON.parse(twitter_response)["statuses"]
     logger.info "****** STATUSES ******"
     logger.info statuses.inspect
@@ -48,6 +48,7 @@ class ChimesController < ApplicationController
         :is_give => !(status["text"] =~ /#give/).nil?,
         :is_kudos => !(status["text"] =~ /#kudos/).nil?,
         :is_volunteer => !(status["text"] =~ /#volunteer/).nil?,
+        :action_url => status["entities"] && status["entities"]["urls"] && status["entities"]["urls"][0] ? status["entities"]["urls"][0]["url"] : nil,
         :user => {
           :id => status["user"]["id_str"],
           :screen_name => status["user"]["screen_name"],
