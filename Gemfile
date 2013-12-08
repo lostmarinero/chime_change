@@ -5,6 +5,10 @@ gem 'rails', '3.2.12'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+group :production do  
+    gem 'rails_12factor'
+end  
+
 gem 'oauth'
 gem 'bootstrap-sass'
 # gem 'heroku'
