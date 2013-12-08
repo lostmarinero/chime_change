@@ -1,8 +1,6 @@
 .bundle/
 tmp/
 log/*.log
-<<<<<<< HEAD
 .DS_Store
 **/*/.DS_Store
-=======
->>>>>>> 446b94d9a38fa9a997a15f0f339d393983729c44
+vendor/bundle
