@@ -6,7 +6,7 @@ class ChimesController < ApplicationController
   TWITTER_ACCESS_TOKEN_SECRET = "eZBmJsi6dMkTGUzOD1KCCIbvKGdHEPGliaCLEAOgTyOA6".freeze
 
   def index
-    twitter_response = if params[:real]
+    twitter_response = if !params[:fake]
       # Exchange our oauth_token and oauth_token secret for the AccessToken instance.
       access_token = prepare_access_token(TWITTER_ACCESS_TOKEN, TWITTER_ACCESS_TOKEN_SECRET)
 

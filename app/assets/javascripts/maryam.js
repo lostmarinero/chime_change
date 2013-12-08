@@ -25,11 +25,11 @@ var o = {
 		  for(var i=0; i<chimes.length; i++) {
 		    var c = chimes[i];
 		      var button = "";
-		      button += c.isGive ? "<button class='btnGive'>Give</button>" : "";
-		      button += c.isHelp ? "<button class='btnHelp'>Help</button>" : "";
+		      button += c.is_give ? "<button class='btnGive'>Give</button>" : "";
+		      button += c.is_volunteer ? "<button class='btnHelp'>Help</button>" : "";
 		      button += "<button class='btnKudos'>Kudos</button>";
 		      button += "<button class='btnShare'>Share</button>";
-		      html+="<li class='ticker_item'><span>" + c.tweet + "</span>" + button + "</li>";
+		      html+="<li class='ticker_item'><span>" + c.tweet + "</span>&nbsp;&nbsp;" + button + "</li>";
 		    }
 		    html +="</ul>";
 		    var url = c.action_url ? c.action_url : "http://www.chimeforchange.org/pillars/education";
