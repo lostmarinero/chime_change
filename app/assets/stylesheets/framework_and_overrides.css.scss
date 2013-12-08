@@ -18,6 +18,25 @@ img {
   }
 }
 
+html { height: 100% }
+
+
+body { height: 100%; margin: 0; padding: 0 }
+
+#map-canvas { 
+  height: 50%;
+  width: 100%;
+}
+
+.main_things {
+  color: #fff;
+}
+
+.main_class {
+  width: 80%;
+}
+
+
 // THESE ARE EXAMPLES YOU CAN MODIFY
 // create your own classes
 // to make views framework-neutral
@@ -51,3 +70,6 @@ section {
   @extend .row;
   margin-top: 20px;
   }
+
+
+
