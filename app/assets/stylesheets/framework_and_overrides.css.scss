@@ -23,8 +23,16 @@ html { height: 100% }
 
 body { height: 100%; margin: 0; padding: 0 }
 
+#tweet-data {
+  height: 100%;
+}
+
+.map-container {
+  padding-bottom: 10px;
+}
+
 #map-canvas { 
-  height: 50%;
+  height: 40%;
   width: 100%;
 }
 
