@@ -9,7 +9,41 @@ img {
 // override for the 'Home' navigation link
 .navbar-brand {
   font-size: inherit;
+
   }
+.navbar-item {
+  margin-top: 5px;
+  img {
+    margin-left: 10px;
+  }
+}
+
+html { height: 100% }
+
+
+body { height: 100%; margin: 0; padding: 0 }
+
+#tweet-data {
+  height: 100%;
+}
+
+.map-container {
+  padding-bottom: 10px;
+}
+
+#map-canvas { 
+  height: 40%;
+  width: 100%;
+}
+
+.main_things {
+  color: #fff;
+}
+
+.main_class {
+  width: 80%;
+}
+
 
 // THESE ARE EXAMPLES YOU CAN MODIFY
 // create your own classes
@@ -34,7 +68,8 @@ img {
 // to make views framework-neutral
 main {
   @extend .container;
-  background-color: #eee;
+  background: transparent url("shell/bg-tile.png") fixed repeat 0 -45px;
+  background-color: #693b59;
   padding-bottom: 80px;
   width: 100%;
   margin-top: 51px; // accommodate the navbar
@@ -43,3 +78,6 @@ section {
   @extend .row;
   margin-top: 20px;
   }
+
+
+
