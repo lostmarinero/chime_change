@@ -16,6 +16,39 @@ var o = {
 			return { width: w, height: h }
 		},
 
+		createTicker: function (chimes) {
+			if (!chimes) {
+		    console.log("return..no chimes");
+			}
+
+			var html="<ul>";
+		  for(var i=0; i<chimes.length; i++) {
+		    var c= chimes[i];
+		      var button = "";
+		      button += c.isGive ? "<button class='btnGive'>Give</button>" : "";
+		      button += c.isHelp ? "<button class='btnHelp'>Help</button>" : "";
+		      button += "<button class='btnHelp'>Kudos</button>";
+		      button += "<button class='btnHelp'>Share</button>";
+		      html+="<li class='ticker_item'><span>" + c.tweet + "</span>" + button + "</li>";
+		    }
+		    html +="</ul>"
+		    $('#tweet_data').empty();
+		    $('#tweet_data').append($(html));
+		    $('#tweet_data').vTicker('init', {padding:4});
+		    $('.btnGive').click(function() {
+		     window.location.href = "www.a";
+		    });
+		    $('.btnHelp').click(function() {
+		     window.location.href = "www.google.com/volunteer";
+		    });
+		    $('btnKudos').click(function() {
+		     window.location.href = "https://twitter.com/intent/tweet?button_hashtag=ChimeHack&text=My%20story%20is%20about%20Kudos";
+		    });
+		    $('btnShare').click(function() {
+		     window.location.href = "https://twitter.com/intent/tweet?button_hashtag=ChimeHack&text=Share";
+		    });
+		},
+
 		getData: function() {
 		  var center = new google.maps.LatLng(37.7749300, -122.4194200); // default SF, CA
 		  navigator.geolocation.getCurrentPosition(function(position) {
@@ -65,6 +98,7 @@ var o = {
 			}); 
 		}
 	},
+
   getChimes: function() {
 	  $.getJSON('/chimes.json', function(data) {
 	    var info = data['chimes'];
@@ -82,9 +116,13 @@ var o = {
 	        name : info[i]['user']['name'],
 	        tweet : info[i]['tweet_text'],
 	        latitude : info[i]['latitude'],
-	        longitude : info[i]['longitude']
-	        // country : info[i]['country'],
-	        // tweet_url : info[i]['tweet_url']
+	        longitude : info[i]['longitude'],
+	        is_share : info[i]['is_share'],
+	        is_give : info[i]['is_give'],
+	        is_kudos : info[i]['is_kudos'],
+	        is_volunteer : info[i]['is_volunteer'],
+	        country : info[i]['country'],
+	        tweet_url : info[i]['tweet_url']
 	        // action : info[i]['action']; 
 		    }
 
@@ -101,6 +139,7 @@ var o = {
 		    o.chimes.push(chime);
    	  }
 
+			o.map.createTicker(o.chimes);
 	    return true;
 	  });
 	}//,

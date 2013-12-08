@@ -37,35 +37,23 @@ class ChimesController < ApplicationController
       {
         :tweet_id => status["id_str"],
         :tweet_text => status["text"],
-<<<<<<< HEAD
         :tweet_url => "https://twitter.com/#{status['user']['screen_name']}/status/#{status['id_str']}",
-=======
-        :tweet_url => nil,
->>>>>>> 446b94d9a38fa9a997a15f0f339d393983729c44
         :created_at => status["created_at"],
         :favorite_count => status["favorite_count"],
         :retweet_count => status["retweet_count"],
         :latitude => status["geo"] && status["geo"]["coordinates"] ? status["geo"]["coordinates"].first : nil,
         :longitude => status["geo"] && status["geo"]["coordinates"] ? status["geo"]["coordinates"].last : nil,
-<<<<<<< HEAD
         :country => status["place"] && status["place"]["place_type"] == "country" ? status["place"]["name"] : nil,
         :is_share => !(status["text"] =~ /#share/).nil?,
         :is_give => !(status["text"] =~ /#give/).nil?,
         :is_kudos => !(status["text"] =~ /#kudos/).nil?,
+        :is_volunteer => !(status["text"] =~ /#volunteer/).nil?,
         :user => {
           :id => status["user"]["id_str"],
           :screen_name => status["user"]["screen_name"],
           :profile_image_url => status["user"]["profile_image_url"],
           :name => status["user"]["name"],
           :location => status["user"]["location"]
-=======
-        :user => {
-          # :id => status["user"]["id_str"],
-          # :screen_name => status["user"]["screen_name"],
-          # :profile_image_url => status["user"]["profile_image_url"],
-          # :name => status["user"]["name"],
-          # :location => status["user"]["location"]
->>>>>>> 446b94d9a38fa9a997a15f0f339d393983729c44
         }
       }
     end
