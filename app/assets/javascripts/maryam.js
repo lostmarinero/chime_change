@@ -23,29 +23,30 @@ var o = {
 
 			var html="<ul>";
 		  for(var i=0; i<chimes.length; i++) {
-		    var c= chimes[i];
+		    var c = chimes[i];
 		      var button = "";
 		      button += c.isGive ? "<button class='btnGive'>Give</button>" : "";
 		      button += c.isHelp ? "<button class='btnHelp'>Help</button>" : "";
-		      button += "<button class='btnHelp'>Kudos</button>";
-		      button += "<button class='btnHelp'>Share</button>";
+		      button += "<button class='btnKudos'>Kudos</button>";
+		      button += "<button class='btnShare'>Share</button>";
 		      html+="<li class='ticker_item'><span>" + c.tweet + "</span>" + button + "</li>";
 		    }
-		    html +="</ul>"
+		    html +="</ul>";
+		    var url = c.action_url ? c.action_url : "http://www.chimeforchange.org/pillars/education";
 		    $('#tweet_data').empty();
 		    $('#tweet_data').append($(html));
 		    $('#tweet_data').vTicker('init', {padding:4});
 		    $('.btnGive').click(function() {
-		     window.location.href = "www.a";
+		    	window.location.href = url;
 		    });
 		    $('.btnHelp').click(function() {
-		     window.location.href = "www.google.com/volunteer";
+					window.location.href = "http://www.catapult.org/team/frida-giannini";
 		    });
 		    $('btnKudos').click(function() {
-		     window.location.href = "https://twitter.com/intent/tweet?button_hashtag=ChimeHack&text=My%20story%20is%20about%20Kudos";
+					window.location.href = "https://twitter.com/intent/favorite?tweet_id=" + c.tweet_id;
 		    });
 		    $('btnShare').click(function() {
-		     window.location.href = "https://twitter.com/intent/tweet?button_hashtag=ChimeHack&text=Share";
+		    	window.location.href = "https://twitter.com/intent/retweet?tweet_id=" + c.tweet_id;
 		    });
 		},
 
@@ -71,8 +72,7 @@ var o = {
 	    {icon: image, map: map, title: chime.screen_name, position: new google.maps.LatLng(chime.longitude, chime.latitude)});
 	
 	  	google.maps.event.addListener(marker, 'click', function(){
-		  alert("hello world");
-		// this is where the click handler will go
+	  		window.location.replace(chime.tweet_url);
 	  	}); 
 		  return marker;
 		},
@@ -81,7 +81,7 @@ var o = {
 			var c = new Object();
 			c.screen_name = "Maryam";
 			c.img = "http://pbs.twimg.com/profile_images/378800000833866132/b3e84c7c81f978e984a634e2f127168c_normal.png";
-			c.title="Hello World";
+			c.title = "Hello World";
 			c.longitude=32.9310417;
 			c.latitude=-80.0364981;
 			this.createMarker(c);
@@ -122,7 +122,8 @@ var o = {
 	        is_kudos : info[i]['is_kudos'],
 	        is_volunteer : info[i]['is_volunteer'],
 	        country : info[i]['country'],
-	        tweet_url : info[i]['tweet_url']
+	        tweet_url : info[i]['tweet_url'],
+	        action_url : info[i]['action_url']
 	        // action : info[i]['action']; 
 		    }
 

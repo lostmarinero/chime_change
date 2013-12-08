@@ -20,8 +20,8 @@ class ChimesController < ApplicationController
       fake_twitter_response
     end
 
-    logger.info "****** TWITTER RESPONSE ******"
-    logger.info twitter_response.inspect
+    # logger.info "****** TWITTER RESPONSE ******"
+    # logger.info twitter_response.inspect
     statuses = JSON.parse(twitter_response)["statuses"]
     logger.info "****** STATUSES ******"
     logger.info statuses.inspect
@@ -48,6 +48,7 @@ class ChimesController < ApplicationController
         :is_give => !(status["text"] =~ /#give/).nil?,
         :is_kudos => !(status["text"] =~ /#kudos/).nil?,
         :is_volunteer => !(status["text"] =~ /#volunteer/).nil?,
+        :action_url => status["entities"] && status["entities"]["urls"] && status["entities"]["urls"][0] ? status["entities"]["urls"][0]["url"] : nil,
         :user => {
           :id => status["user"]["id_str"],
           :screen_name => status["user"]["screen_name"],
