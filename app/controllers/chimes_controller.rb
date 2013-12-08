@@ -47,6 +47,7 @@ class ChimesController < ApplicationController
         :is_share => !(status["text"] =~ /#share/).nil?,
         :is_give => !(status["text"] =~ /#give/).nil?,
         :is_kudos => !(status["text"] =~ /#kudos/).nil?,
+        :is_volunteer => !(status["text"] =~ /#volunteer/).nil?,
         :user => {
           :id => status["user"]["id_str"],
           :screen_name => status["user"]["screen_name"],
