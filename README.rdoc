@@ -1,5 +1,5 @@
 == ReSound - a #chimehack app 
-== Designed and built for #ChimeForChange
+= Designed and built for #ChimeForChange
 
 This Ruby on Rails app was desinged and built over a 24 hour period during the #chimehack hackathon. 
 
@@ -9,9 +9,9 @@ interesting and engaging app that would benefit women worldwide.
 This app was built with the idea of providing an interactive map and notification bar that would update
 with tweets from women directed at three specific hashtags:
 
-** #Chime4Education
-** #Chime4Justice
-** #Chime4Health
+* #Chime4Education
+* #Chime4Justice
+* #Chime4Health
 
 These hashtags enable women to connect with each other and tell their stories. It also enables women to read inspiring
 stories and either share them, favorite them or make a donation to Chime for Change to support women's organizations
