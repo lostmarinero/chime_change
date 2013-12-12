@@ -9,7 +9,6 @@ img {
 // override for the 'Home' navigation link
 .navbar-brand {
   font-size: inherit;
-
   }
 .navbar-item {
   margin-top: 5px;
@@ -20,11 +19,11 @@ img {
 
 html { height: 100% }
 
-
 body { height: 100%; margin: 0; padding: 0 }
 
 #tweet-data {
   height: 100%;
+  width: 100%;
 }
 
 .map-container {
