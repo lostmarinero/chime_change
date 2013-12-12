@@ -1,5 +1,5 @@
 == ReSound - a #chimehack app 
-= Designed and built for #ChimeForChange
+==== Designed and built for #ChimeForChange
 
 This Ruby on Rails app was desinged and built over a 24 hour period during the #chimehack hackathon. 
 
