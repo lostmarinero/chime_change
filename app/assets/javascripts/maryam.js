@@ -4,6 +4,8 @@ var coder, marker, location,
 	
 var o = {
 	init: function(){
+		console.log('hello3')
+
 		this.map.init();
 		this.chimes = new Array();
 		this.getChimes();
@@ -11,7 +13,9 @@ var o = {
 
   map: {
 		size: function(){
-			var w = $(window).width(),
+			console.log('hello2')
+
+			var w = $('#map-container').width(),
 				h = $(window).height();
 			return { width: w, height: h }
 		},
@@ -88,8 +92,9 @@ var o = {
 		},
 
 		init: function(){
-			// var size = o.map.size();
-			// $('#map-canvas').css({ width: size.width, height: size.height });
+			console.log('hello')
+			var size = o.map.size();
+			$('#map-canvas').css({ width: size.width, height: size.height });
 			map = new google.maps.Map(document.getElementById('map-canvas'), o.map.getData());
 			geocoder = new google.maps.Geocoder();
 			o.map.show();
@@ -157,6 +162,7 @@ var o = {
 
 
 $(function(){ 
+	console.log('helloworld');
 o.init(); 
 // o.getChimes();
 // o.loadData(); //TODO needs to go in timer
