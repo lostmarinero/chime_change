@@ -27,6 +27,8 @@ end
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
+
+##!! MOVED HERE BY KEVIN to try and solve asset pipeline issue
   gem 'bootstrap-sass', '~> 3.0.3.0'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
