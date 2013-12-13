@@ -30,6 +30,10 @@ img {
   }
 }
 
+.main-container-div {
+  height: 100%;
+  width: 100%;
+}
 
 #tweet-data {
   height: 100%;
@@ -39,6 +43,7 @@ img {
 #map-canvas { 
   height: 100%;
   width: 100%;
+  position: relative;
 }
 
 .main_things {
