@@ -88,8 +88,8 @@ var o = {
 		},
 
 		init: function(){
-			var size = o.map.size();
-			$('#map-canvas').css({ width: size.width, height: size.height });
+			// var size = o.map.size();
+			// $('#map-canvas').css({ width: size.width, height: size.height });
 			map = new google.maps.Map(document.getElementById('map-canvas'), o.map.getData());
 			geocoder = new google.maps.Geocoder();
 			o.map.show();

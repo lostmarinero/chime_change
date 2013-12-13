@@ -6,32 +6,38 @@ img {
   @extend .img-responsive;
   margin: 0 auto;
   }
+
 // override for the 'Home' navigation link
+.navbar {
+  padding-top: 5px;
+}
+
 .navbar-brand {
   font-size: inherit;
   }
+
+// .navbar-left {
+//  padding-left: 10px;
+// }
+
+
+
 .navbar-item {
-  margin-top: 5px;
-  img {
-    margin-left: 10px;
+  width: 25%;
+  color: white;
+  div {
+  display: inline;
   }
 }
 
-html { height: 100% }
-
-body { height: 100%; margin: 0; padding: 0 }
 
 #tweet-data {
   height: 100%;
   width: 100%;
 }
 
-.map-container {
-  padding-bottom: 10px;
-}
-
 #map-canvas { 
-  height: 40%;
+  height: 100%;
   width: 100%;
 }
 
@@ -40,9 +46,10 @@ body { height: 100%; margin: 0; padding: 0 }
 }
 
 .main_class {
-  width: 80%;
+  width: 90%;
 }
 
+// body { padding-top: 70px; }
 
 // THESE ARE EXAMPLES YOU CAN MODIFY
 // create your own classes
@@ -69,6 +76,7 @@ main {
   @extend .container;
   background: transparent url("shell/bg-tile.png") fixed repeat 0 -45px;
   background-color: #693b59;
+  padding-top: 5px;
   padding-bottom: 80px;
   width: 100%;
   margin-top: 51px; // accommodate the navbar
