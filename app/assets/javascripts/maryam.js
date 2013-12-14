@@ -4,8 +4,6 @@ var coder, marker, location,
 	
 var o = {
 	init: function(){
-		console.log('hello3')
-
 		this.map.init();
 		this.chimes = new Array();
 		this.getChimes();
@@ -13,12 +11,21 @@ var o = {
 
   map: {
 		size: function(){
-			console.log('hello2')
-
 			var w = $('#map-container').width(),
-				h = $(window).height();
+				h = ($(window).height() * (0.7))
 			return { width: w, height: h }
 		},
+
+		resize: function(){
+			var w = $('#map-container').width(),
+				h = ($(window).height() * (0.7));
+				$('#map-canvas').css({ width: w, height: h });
+
+				o.getChimes();
+			// var w2 = $('.ticker_item').width(),
+			// 	h2 = $('.ticker_item').height();
+			// 	$('.ticker_item').css({ width: w2, height: h2 });
+			},
 
 		createTicker: function (chimes) {
 			if (!chimes) {
@@ -62,7 +69,11 @@ var o = {
 		   return {
 				zoom: 4,
 				mapTypeId: google.maps.MapTypeId.ROADMAP,
-				center: center
+				center: center,
+				panControl: true,
+    		zoomControl: true,
+    		streetViewControl: false,
+    		overviewMapControl: false
 			};
 		},
 
@@ -92,7 +103,6 @@ var o = {
 		},
 
 		init: function(){
-			console.log('hello')
 			var size = o.map.size();
 			$('#map-canvas').css({ width: size.width, height: size.height });
 			map = new google.maps.Map(document.getElementById('map-canvas'), o.map.getData());
@@ -101,6 +111,9 @@ var o = {
 			google.maps.event.addListener(map, 'dragstart', function(){
 				$('.posts').hide();
 			}); 
+			google.maps.event.addDomListener(window, 'resize', function(){
+				o.map.resize();
+			});
 		}
 	},
 
@@ -140,7 +153,7 @@ var o = {
 	        chime.longitude = location[0];
 	      }
 
-	      console.log(chime);
+	      // console.log(chime);
 				o.map.createMarker(chime);
 		    o.chimes.push(chime);
    	  }
@@ -162,10 +175,7 @@ var o = {
 
 
 $(function(){ 
-	console.log('helloworld');
-o.init(); 
+	o.init(); 
 // o.getChimes();
 // o.loadData(); //TODO needs to go in timer
-
-
 });

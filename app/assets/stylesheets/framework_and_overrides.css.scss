@@ -24,6 +24,14 @@ html,body {
   height: 100%;
 }
 
+.gmnoprint img {
+    max-width: none; 
+}
+
+.ticker_item {
+  height: 100%;
+}
+
 .navbar-item {
   width: 25%;
   color: white;
