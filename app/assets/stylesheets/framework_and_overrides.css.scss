@@ -10,15 +10,17 @@ img {
 // override for the 'Home' navigation link
 .navbar {
   padding-top: 5px;
+  padding-bottom: 0;
+  .nav {
+    li {
+      float: right;
+    }
+  }
 }
 
-.navbar-brand {
-  font-size: inherit;
-  }
-
-// .navbar-left {
-//  padding-left: 10px;
-// }
+.icon-bar {
+  color: white;
+}
 
 html,body {
   height: 100%;
@@ -30,14 +32,6 @@ html,body {
 
 .ticker_item {
   height: 100%;
-}
-
-.navbar-item {
-  width: 25%;
-  color: white;
-  div {
-  display: inline;
-  }
 }
 
 .hero-unit {
@@ -67,10 +61,6 @@ html,body {
 
 .main_things {
   color: #fff;
-}
-
-.main_class {
-  width: 90%;
 }
 
 // body { padding-top: 70px; }
@@ -104,12 +94,17 @@ main {
   padding-bottom: 80px;
   height: 100%;
   width: 100%;
-  margin-top: 51px; // accommodate the navbar
   }
 section {
   @extend .row;
   margin-top: 20px;
   }
 
+#ournav {
+  margin-bottom: 0;
+  a {
+    display: inline-block;
+  }
+}
 
 
