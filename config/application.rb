@@ -58,5 +58,8 @@ module ChimeApp
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    ##!! Added by kevin trying to figure out asset pipeline
+    config.assets.initialize_on_precompile = false
   end
 end

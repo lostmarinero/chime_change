@@ -34,4 +34,10 @@ ChimeApp::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  ##!! Added by kevin trying to figure out asset pipeline
+  config.assets.prefix = "/dev-assets"
+
+  ##!! Added by kevin trying to figure out asset pipeline
+  # config.serve_static_assets = true
 end

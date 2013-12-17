@@ -1,28 +1,25 @@
 <%# navigation styled for Twitter Bootstrap 3.0 %>
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container">
+<div class="container">
+  <nav class="navbar navbar-inverse" id="ournav">
+      <span><%= link_to(image_tag("chimeforchange-logo.png"), root_path, :class => "navbar-brand") %></span>
     <div class="navbar-header">
-
-<!--       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-      </button> -->
+      </button> 
+      <a class="navbar-brand" href="#"></a>
+    </div>
 
-      <div class="navbar-item">
-      <%= link_to image_tag "chimeforchange-logo.png", root_path% :class => 'navbar-brand' %>
-      </div>
-
-      <div class="title_header_nav">
-        
-      </div>
-
-     </div>
-    <div class="collapse navbar-collapse">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <%= render 'layouts/navigation_links' %>
+        <li><a href="#">Education</a></li>
+        <li><a href="#">Justice</a></li>
+        <li><a href="#">Health</a></li>
       </ul>
-    </div>
-  </div>
-</nav>
+    </div> 
+
+  </nav>
+</div>

@@ -6,44 +6,64 @@ img {
   @extend .img-responsive;
   margin: 0 auto;
   }
-// override for the 'Home' navigation link
-.navbar-brand {
-  font-size: inherit;
 
-  }
-.navbar-item {
-  margin-top: 5px;
-  img {
-    margin-left: 10px;
+// override for the 'Home' navigation link
+.navbar {
+  padding-top: 5px;
+  padding-bottom: 0;
+  .nav {
+    li {
+      float: right;
+    }
   }
 }
 
-html { height: 100% }
+.icon-bar {
+  color: white;
+}
 
-
-body { height: 100%; margin: 0; padding: 0 }
-
-#tweet-data {
+html,body {
   height: 100%;
 }
 
-.map-container {
-  padding-bottom: 10px;
+.gmnoprint img {
+    max-width: none; 
+}
+
+.ticker_item {
+  height: 100%;
+}
+
+.hero-unit {
+  height: 100%;
+  width: 100%;
+}
+
+.fill {
+  height: 100%;
+}
+
+#map-container {
+  height: 100%;
+  width: 100%;
+}
+
+#tweet-data {
+  height: 100%;
+  width: 100%;
 }
 
 #map-canvas { 
-  height: 40%;
+  height: 100%;
   width: 100%;
+  position: relative;
 }
 
 .main_things {
   color: #fff;
 }
 
-.main_class {
-  width: 80%;
-}
-
+// body { padding-top: 70px; }
 
 // THESE ARE EXAMPLES YOU CAN MODIFY
 // create your own classes
@@ -70,14 +90,21 @@ main {
   @extend .container;
   background: transparent url("shell/bg-tile.png") fixed repeat 0 -45px;
   background-color: #693b59;
+  padding-top: 5px;
   padding-bottom: 80px;
+  height: 100%;
   width: 100%;
-  margin-top: 51px; // accommodate the navbar
   }
 section {
   @extend .row;
   margin-top: 20px;
   }
 
+#ournav {
+  margin-bottom: 0;
+  a {
+    display: inline-block;
+  }
+}
 
 

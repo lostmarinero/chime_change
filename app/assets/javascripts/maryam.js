@@ -11,10 +11,21 @@ var o = {
 
   map: {
 		size: function(){
-			var w = $(window).width(),
-				h = $(window).height();
+			var w = $('#map-container').width(),
+				h = ($(window).height() * (0.7))
 			return { width: w, height: h }
 		},
+
+		resize: function(){
+			var w = $('#map-container').width(),
+				h = ($(window).height() * (0.7));
+				$('#map-canvas').css({ width: w, height: h });
+
+				o.getChimes();
+			// var w2 = $('.ticker_item').width(),
+			// 	h2 = $('.ticker_item').height();
+			// 	$('.ticker_item').css({ width: w2, height: h2 });
+			},
 
 		createTicker: function (chimes) {
 			if (!chimes) {
@@ -58,7 +69,11 @@ var o = {
 		   return {
 				zoom: 4,
 				mapTypeId: google.maps.MapTypeId.ROADMAP,
-				center: center
+				center: center,
+				panControl: true,
+    		zoomControl: true,
+    		streetViewControl: false,
+    		overviewMapControl: false
 			};
 		},
 
@@ -96,6 +111,9 @@ var o = {
 			google.maps.event.addListener(map, 'dragstart', function(){
 				$('.posts').hide();
 			}); 
+			google.maps.event.addDomListener(window, 'resize', function(){
+				o.map.resize();
+			});
 		}
 	},
 
@@ -135,7 +153,7 @@ var o = {
 	        chime.longitude = location[0];
 	      }
 
-	      console.log(chime);
+	      // console.log(chime);
 				o.map.createMarker(chime);
 		    o.chimes.push(chime);
    	  }
@@ -157,9 +175,7 @@ var o = {
 
 
 $(function(){ 
-o.init(); 
+	o.init(); 
 // o.getChimes();
 // o.loadData(); //TODO needs to go in timer
-
-
 });
