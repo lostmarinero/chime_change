@@ -12,7 +12,7 @@ end
 
 gem 'oauth'
 
-# gem 'heroku'
+gem 'heroku'
 
 # group :production do
 #   gem 'pg'
